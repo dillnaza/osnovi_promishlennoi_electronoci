@@ -1,0 +1,2 @@
+# osnovi_promishlennoi_electronoci
+# osnovi_promishlennoi_electronoci
