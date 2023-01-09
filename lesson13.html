@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Лекции</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Fonts-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/themify-icons/themify-icons.css" />
+    <!-- Vendors-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap4/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/vendors/owl.carousel/owl.carousel.css" />
+    <!-- App & fonts-->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;amp;subset=latin-ext" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="page-wrap">
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <!-- consult-nav -->
+                <nav class="consult-nav">
+                    <!-- consult-menu -->
+                    <ul class="consult-menu">
+                        <li><a href="index.html">Основы промышленной электроники</a></li>
+                        <li class="current-menu-item"><a href="lesson.html">Лекции</a></li>
+                        <li><a href="lab.html">Лабораторные работы</a></li>
+                        <li><a href="test.html">Тесты</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                    <!-- consult-menu -->
+
+                    <div class="navbar-toggle">
+                        <span></span><span></span><span></span>
+                    </div>
+                </nav>
+                <!-- End / consult-nav -->
+            </div>
+        </header>
+        <!-- End / header -->
+
+        <!-- Content-->
+        <div class="md-content">
+            <!-- page-title -->
+            <div class="page-title">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-0 offset-sm-0 offset-md-0 offset-lg-2">
+                            <h2 class="page-title__title">Лекции</h2>
+                            <nav>
+								<a class="breadcrumb__item" href="index.html">Основы промышленной электроники</a>
+								<span class="breadcrumb__item" href="lesson.html">Лекции</span>
+                                <span class="breadcrumb__item active">Сглаживающие фильтры.</span>
+                            </nav>
+                            <!-- End /  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End / page-title -->
+
+            <!-- Section -->
+            <section class="md-section">
+                <div class="container">
+                    <!-- layout-blog sidebar-left -->
+                    <div class="layout-blog sidebar-left">
+                        <div class="layout-blog__content">
+                            <div class="header-label" id="lesson13">Лекция 13</div>
+                            <h3 class="c02_h3">Сглаживающие фильтры.</h3>
+                            <p class="paragraph-light">
+                            <ol>
+                                <li id="lesson13.1">
+                                    <h5>Назначение сглаживающих фильтров.</h5>
+                                    Т.к нагрузка может предъявлять повышенные требования к постоянному питающему
+                                    напряжению (коэф.
+                                    пульсации 0,01- 0,0001) то после схем выпрямления ставят сглаживающие фильтры. Их
+                                    основное назначение
+                                    максимально напряжения, сохраняя при этом постоянную составляющую
+                                    на нагрузке. Поэтому обычно схемы сглаживающих фильтров содержать только реактивные
+                                    составляющие (L и
+                                    C) и лишь при очень малых мощностях нагрузки может содержать и активные
+                                    сопротивления.<br />
+                                    <b>Классификация.</b>
+                                    <ol>
+                                        <li>Простые фильтры (емкостные, индуктивные);</li>
+                                        <li>Сложные фильтры (Г- образные, Т-образные, П-образные, много звеньевые);</li>
+                                        <li>Пассивные(C.L.R);</li>
+                                        <li>Активные (транзисторные).</li>
+                                    </ol>
+                                    Основным параметром является коэффициент сглаживания.<br /> К сгл.=Кn вх / вых -
+                                    показывает во сколько
+                                    раз фильтр ув. пульсации выпрямленного U(I).<br />
+                                </li>
+                                <li id="lesson13.2">
+                                    <h5>Простые сглаживающие фильтры.</h5>
+                                    <b>Простой емкостной фильтр.</b><br /> Условия фильтра:<br />
+                                    <ol>
+                                        <li>емкость вкл-ся параллельно нагрузки;</li>
+                                        <li>хс ˂Rн, 1/100˂Rн.</li>
+                                    </ol>
+                                    <img src="img/13.2.1.png" alt="Фильтр."><br /> Конденсатор заряжается до
+                                    амплитудного значения
+                                    напряжения на входе фильтра в те моменты времени, когда напряжение на входе фильтра
+                                    превышает
+                                    напряжение на конденсаторе. В остальное время
+                                    конденсатор разряжается на нагрузку.<br /> m-количество витков
+                                    <img src="img/13.2.1.1.png" width="150" height="60" alt="Формула."> W- угловая
+                                    скорость W=2πf.<br />
+                                    На практике для мало мощных потребителей выбирают емкость из условий
+                                    Хс=Rн/5&divide;10, для мощных
+                                    Хс=Rн/2&divide;5.
+                                    <br /><br />
+                                    <b>Простой индуктивный фильтр.</b><br />Условия фильтра:<br />
+                                    <ol>
+                                        <li>включается последовательно нагрузки;</li>
+                                        <li>XL>>Rn. WL>>Rn.</li>
+                                    </ol>
+                                    <img src="img/13.2.2.png" alt="Фильтр."><br /> В этом случае основное падение
+                                    напряжения переменных
+                                    составляющих происходит не на сопротивлении нагрузки, а на индуктивности фильтра.
+                                    Для постоянной
+                                    составляющей сопротивление индуктивной
+                                    катушки близко к нулю.<br /> Поскольку индуктивные фильтры обеспечивают лучшее
+                                    сглаживание пульсации
+                                    при малых сопротивлениях нагрузки, их применяют главным образом в мощных
+                                    выпрямителях. Переменная
+                                    составляющая вызывает в индуктивности
+                                    эдс самоиндукции, препятствующую ее изменению. <br /> L=(Kcr * Rн) /(m &omega;
+                                    (Гн)<br /> На практике
+                                    для маломощной нагрузки XL &asymp; (5&divide;10) Rн; для мощной нагрузки XL &asymp;
+                                    (2&divide;5) Rн;
+                                    <br />
+                                </li>
+                                <li id="lesson13.3">
+                                    <h5>Сложные сглаживающие фильтр.</h5>
+                                    Г- образный фильтр с индуктивным входом.<br /> Вид фильтра зависит от характер
+                                    нагрузки (у
+                                    индуктивного входа броски тока меньше) Хс. <br />Фильтры обеспечивают значительно
+                                    более высокий
+                                    коэффициент сглаживания пульсации, L и C.<br />
+                                    <img src="img/13.3.1.png" width="130" height="30" alt="Формула."><br />
+                                    <img src="img/13.3.2.png" width="400" height="170" alt="Фильтр."><br />
+                                </li>
+                                Задача №1<br /> Определить L фильтра выключенного в цепь однофазного выпрямителя
+                                (мостовая схема ).
+                                Ud=60B, Id =5A, Kn на нгузке 0,01 Кнвх= 0,67<br /> L=Rn * Kcr *Wm; RnUd / Id=12 Om; Kcr
+                                = Knвx =
+                                0.67/0.01=67<br /> L=12*67/2Гн
+                                <br /><br /> Задача №2<br /> Определить параметры Г- образного фильтра к
+                                двухполуперидному однофазному
+                                выпрямителю, так чтобы Кнвх=0,004<br /> LC=Kcr +1/; Kcr=Кнвх/ Кнвых=0,67/0,004=168<br />
+                                LC=168+1/=0.0017
+                                <br /><br /> Задача №3<br /> Определить общий коэффициент сглаживания LC фильтра. Если
+                                L1= 27 мГн
+                                L2=23.5 мГн q=1.6<br /><br /> Задача №4<br /> Определить постоянную составляющую
+                                напряжения емкостного
+                                фильтра однофазного двухполупериодного
+                                выпрямителя на выходе, если R=12Ом C=6.4 Ф Um~вх=4,7 В
+                                <br />
+                                <h6>Контрольные вопросы:</h6>
+                                <ol>
+                                    <li>Для чего применяют сглаживающие фильтры?</li>
+                                    <li>На какие виды делятся сглаживающие фильтры?</li>
+                                </ol>
+                            </ol>
+                            </p>
+                        </div>
+                        <aside class="layout-blog__sidebar">
+                            <!--  -->
+                            <div>
+
+                                <!-- widget-text__widget -->
+                                <section class="widget-text__widget widget-text__style-02 widget">
+                                    <h3 class="widget-title">Лекции</h3>
+                                    <div class="widget-text__content">
+                                        <ul>
+                                            <li>
+                                                <a href="lesson.html">Введение. Классификация электронных приборов и
+                                                    устройств. Процесс электронной
+                                                    эмиссий.</a>
+                                            </li>
+                                            <li><a href="lesson2.html">Электропроводность полупроводников.</a></li>
+                                            <li><a href="lesson3.html">Полупроводниковые диоды.</a></li>
+                                            <li><a href="lesson4.html">Полупроводниковые транзисторы.</a></li>
+                                            <li><a href="lesson5.html">Схемы включения биполярных транзисторов.</a></li>
+                                            <li><a href="lesson6.html">Полевые транзисторы.</a></li>
+                                            <li><a href="lesson7.html">Полупроводниковые тиристоры.</a></li>
+                                            <li><a href="lesson8.html">Фотоэлектронные приборы.</a></li>
+                                            <li><a href="lesson9.html">Оптоэлектронные приборы.</a></li>
+                                            <li><a href="lesson10.html">Оптоэлектронные приборы.</a></li>
+                                            <li><a href="lesson11.html">Стабилизаторы напряжения.</a></li>
+                                            <li><a href="lesson12.html">Стабилизаторы тока.</a></li>
+                                            <li><a href="lesson13.html">Сглаживающие фильтры.</a></li>
+                                            <li><a href="lesson14.html">Выпрямители.</a></li>
+                                            <li><a href="lesson15.html">Трехфазные выпрямители.</a></li>
+                                            <li><a href="lesson16.html">Инверторы</a></li>
+                                            <li><a href="lesson17.html">Преобразователи напряжения (Конверторы).</a>
+                                            </li>
+                                            <li><a href="lesson18.html">Усилители.</a></li>
+                                            <li><a href="lesson19.html">Методы стабилизации положения рабочей точки
+                                                    усилителя.</a></li>
+                                            <li><a href="lesson20.html">Режимы работы усилительных каскадов.</a></li>
+                                        </ul>
+                                    </div>
+                                </section>
+                                <!-- End / widget-text__widget -->
+
+                            </div>
+                            <!-- End /  -->
+                        </aside>
+                    </div>
+                    <!-- End / layout-blog sidebar-left -->
+                </div>
+            </section>
+            <!-- End / Section -->
+        </div>
+        <!-- End / Content-->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__copyright">2022 &copy; Айтбекұлы Нұрасыл</div>
+        </footer>
+        <!-- End / footer -->
+
+    </div>
+    <!-- Vendors-->
+    <script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.countdown/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.countTo/jquery.countTo.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.countUp/jquery.countup.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/owl.carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/menu/menu.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/smoothscroll/SmoothScroll.min.js"></script>
+    <!-- App-->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
